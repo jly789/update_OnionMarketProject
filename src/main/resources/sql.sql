@@ -788,22 +788,22 @@ INSERT INTO product VALUES(128,1,1,107,'식물/염자 다육식물 화초 새토
 INSERT INTO product VALUES(129,1,1,107,'다육이','고급진 화분에 붉게 물든 다육 넘이쁘죠',13000,'105다육4.png',SYSDATE , '', '' ,0,'SALESON','',0);
 INSERT INTO product VALUES(130,1,1,107,'다육 모듬입니다~','사이즈 확인하시고 상대원3동 주민센터 앞으로 오시면 되요',7000,'105다육5.png',SYSDATE , '', '' ,0,'SALESON','1',0);
 ----------------------------------------------------------------------------------------------------
-INSERT INTO SEARCH VALUES(1,'취업',100);
-INSERT INTO SEARCH VALUES(2,'수료',90);
-INSERT INTO SEARCH VALUES(3,'자바',80);
-INSERT INTO SEARCH VALUES(4,'황태용',70);
-INSERT INTO SEARCH VALUES(5,'스프링',60);
-INSERT INTO SEARCH VALUES(6,'면접',55);
-INSERT INTO SEARCH VALUES(7,'아이티윌',50);
-INSERT INTO SEARCH VALUES(8,'김홍수',45);
-INSERT INTO SEARCH VALUES(9,'최재혁',40);
-INSERT INTO SEARCH VALUES(10,'수료끝',35);
-INSERT INTO SEARCH VALUES(11,'강사님',30);
-INSERT INTO SEARCH VALUES(12,'수고하셨습니다',25);
-INSERT INTO SEARCH VALUES(13,'컴퓨터',20);
-INSERT INTO SEARCH VALUES(14,'IT',15);
-INSERT INTO SEARCH VALUES(15,'끝',10);
 
+INSERT INTO SEARCH VALUES(1,'패딩',100);
+INSERT INTO SEARCH VALUES(2,'강아지',90);
+INSERT INTO SEARCH VALUES(3,'노트북',80);
+INSERT INTO SEARCH VALUES(4,'냉장고',70);
+INSERT INTO SEARCH VALUES(5,'코트',60);
+INSERT INTO SEARCH VALUES(6,'아이폰',55);
+INSERT INTO SEARCH VALUES(7,'포켓몬',50);
+INSERT INTO SEARCH VALUES(8,'애플',45);
+INSERT INTO SEARCH VALUES(9,'선반',40);
+INSERT INTO SEARCH VALUES(10,'에르메스',35);
+INSERT INTO SEARCH VALUES(11,'버버리',30);
+INSERT INTO SEARCH VALUES(12,'샤넬',25);
+INSERT INTO SEARCH VALUES(13,'컴퓨터',20);
+INSERT INTO SEARCH VALUES(14,'고양이',15);
+INSERT INTO SEARCH VALUES(15,'자전거',10);
 
 ----------------------------------------------------------------------------------------------------
 
@@ -848,5 +848,6 @@ INSERT INTO inquiry VALUES (89, 3, '회원정보', '회원가입/수정', '프�
 INSERT INTO answer VALUES (79, 89, 1, '[마이페이지] - [사진변경] 탭을 통해 원하는 사진으로 변경 가능합니다.', '2022-11-03');
 INSERT INTO inquiry VALUES (90, 2, '기타서비스', '채팅이용', '채팅으로 거래예약을 하는건가요?', '채팅 처음 써보는데 사용하는 법을 몰라요', '2022-11-05', 'complete', 1);
 INSERT INTO answer VALUES (80, 90, 1, '구매를 원하는 상품 페이지에 들어가서 [채팅하기]를 클릭하면 판매자와 대화하실 수 있습니다. <br/> 채팅기록은 남아있으니 원할때마다 확인 가능합니다.', '2022-11-05');
+INSERT INTO answer VALUES (81, 90, 1, '채팅으로는 상품과 거래에 대한 질문을 나눌 수 있습니다.<br/> 상품 상세페이지의 구매하기를 통해 주문을 진행해주세요', '2022-11-06');
 
 commit;
