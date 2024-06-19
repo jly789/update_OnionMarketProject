@@ -15,10 +15,10 @@ $('#topCategory').change(function () {
                 let subCategoryDTO = subCategory[i]
                 let option = $('<option value="' + subCategoryDTO.categoryId + '">' + subCategoryDTO.categoryName + '</option>')
 
-                $("#subCategory").append(option)
+                $('#subCategory').append(option)
             }
 
-            $('#subCategory').niceSelect('update');
+            $('#subCategory').niceSelect('update')
         }
     })
 

@@ -161,8 +161,8 @@
                         <sec:authorize access="hasRole('ROLE_ADMIN')">
                             <li><a href="#">관리자페이지</a>
                                 <ul class="header__menu__dropdown">
-                                    <li><a onclick="confirm('크롤링') ? location.href='/crawling' : false">crawling</a>
-                                    </li>
+<%--                                    <li><a onclick="confirm('크롤링') ? location.href='/crawling' : false">crawling</a>--%>
+<%--                                    </li>--%>
                                     <li><a href="/member/manageMember">회원 관리</a></li>
                                     <li><a href="/prohibitionkeyword/prohibitionkeyword">금지어 관리</a></li>
                                     <li><a href="/category/category"> 카테고리 관리 </a></li>

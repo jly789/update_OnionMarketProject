@@ -20,10 +20,12 @@
 				<c:forEach var="wishListDTO" items="${page.content}">
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						<div class="product__item">
-							<div class="product__item__pic set-bg pointer" data-setbg="/img/product/${wishListDTO.representativeImage}"
-									 onclick="location.href='/product/detail/${wishListDTO.productId}';">
-								<div style="margin-top:93%;"><img src="/template/img/product/pay.png"></div>
-							</div>
+							<img src="../../../../../img/product/${wishListDTO.representativeImage}"
+								 onclick="location.href='/product/detail/${wishListDTO.productId}';" width="500px;" height="300px;">
+<%--							<div class="product__item__pic set-bg pointer" data-setbg="/img/product/${wishListDTO.representativeImage}"--%>
+<%--									 onclick="location.href='/product/detail/${wishListDTO.productId}';">--%>
+<%--								<div style="margin-top:93%;"><img src="/template/img/product/pay.png"></div>--%>
+
 							<div class="product__item__text">
 								<h6><a href="/product/detail/${wishListDTO.productId}">${wishListDTO.subject}</a></h6>
 								<h5><fmt:formatNumber type="number" maxFractionDigits="3" value="${wishListDTO.price}"/>원</h5>

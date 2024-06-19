@@ -17,5 +17,6 @@
 		<put-attribute name="js1" value="/resources/js/{1}/{1}.js" />
 		<put-attribute name="js2" value="/resources/js/{1}/{2}.js" />
 	</definition>
-
+<!--	첫번째경로이름의 첫번째경로이름-->
+<!--	첫번째경로이름/두번째폴더경로이름-->
 </tiles-definitions>

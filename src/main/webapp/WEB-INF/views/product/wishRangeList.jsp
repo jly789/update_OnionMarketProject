@@ -18,14 +18,16 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="featured__item">
                         <div class="product__progress">
-                            <div class="product__item__pic set-bg"
-                                 data-setbg="/img/product/${productDTO.productImageName}"
-                                 onclick="location.href='/product/detail/${productDTO.productId}';">
+                            <div class="product__item__pic set-bg">
+                                <img src="../../../../../img/product/${productDTO.productImageName}"
+                                 onclick="location.href='/product/detail/${productDTO.productId}';" width="500px;" height="300px;">
                                 <c:if test="${productDTO.productProgress ne 'SALESON'}">
                                     <div class="product__progress__not__saleson">
                                             ${productDTO.productProgress}
                                     </div>
                                 </c:if>
+
+
                                 <div class="pay__auction__image">
                                     <c:if test="${productDTO.payStatus eq true}"><img
                                             src="/template/img/product/pay.png"></c:if>
